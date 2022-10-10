@@ -1,0 +1,200 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  scroll-behavior: smooth;
+}
+
+.hover:hover {
+  background-color: greenyellow;
+  padding: 5px auto;
+  border-radius: 8px;
+  color: blue;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+.navbar-stiky {
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+
+#Webjii {
+  /* min-height: 100vh; */
+  /* display: flex; */
+  /* https://www.instagram.com/p/CWS21JPMONN/?igshid=MDJmNzVkMjY=  */
+  /* dono */
+  /* background-color: rgb(175, 246, 175); */
+  /* background: url('https://avatars.mds.yandex.net/i?id=5c649c0898fc33e28ca79c9217d5475a-5222505-images-thumbs&n=13')  no-repeat center center/cover;;center center */
+  background: url('Images/donoBhai.png')  no-repeat center center/cover;
+  margin: 0;
+  opacity: 0.7;
+  width: 100%;
+  border: 2px solid;
+  /* margin-left: 50px; */
+
+  /* justify-content: center; */
+  /* vertically center */
+}
+.Webjii{
+  /* margin-top: 50px;
+ margin: auto;
+ height: 80vh; */
+
+}
+
+#Webji {
+  /* min-height: 100vh; */
+  display: flex;
+  margin: 35px 70px;
+
+  /* margin-left: 50px; */
+  flex-direction: column;
+  text-align: center;
+  /* align-items: center; */
+  /* align-content: center; */
+  justify-content: center;
+  /* vertically center */
+}
+
+.happy {
+  /* position: sticky;
+  z-index: 1; */
+  display: flex;
+  flex-direction: column;
+  width: 325px;
+  border-radius: 10px;
+  background-color: yellow;
+  color: blue;
+  font-weight: bold;
+  position: sticky;
+  top: 0px;
+  /* z-index: 9; */
+  text-align: center;
+  animation-duration: 11s;
+  animation-name: gamenji;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes gamenji {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  25% {
+    top: 0;
+    left: 1020px;
+  }
+  50% {
+    left: 1020px;
+    top: 50%;
+    /* top: 180px; */
+  }
+  75% {
+    left: 0;
+    top: 50%;
+  }
+  100% {
+    top: 0;
+    left: 0;
+  }
+}
+/* carousel */
+.d-blocpwidthh{
+  width: 90%;
+  height: 100vh;
+  margin: auto;
+  display: block;
+}
+
+
+/* feed */
+#Memory {
+  background-color: #c7bcbc;
+}
+
+/* Gallery */
+.height {
+  height: 600px;
+  width: 1100px;
+  margin: auto;
+}
+
+.oppa-son{
+  /* text-align: left; */
+  left: -19px;
+  margin-top: 22px;
+  position: relative;
+  animation-duration: 6s;
+  animation-name: vo;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.oppa-son > video{
+  height: 320px;
+  width: 411px;
+}
+@keyframes vo{
+  0% {
+    left: 0%;
+    top: 0;
+  }
+  /* 25% {
+    top: 0;
+    left: 1020px;
+  }
+  50% {
+    left: 1020px;
+    top: 180px;
+  }
+  75% {
+    left: 0;
+    top: 180px;
+  } */
+  100% {
+    top: 0;
+    left: 100%;
+  }
+}
+
+
+/* About */
+.gallery-img {
+  height: auto;
+margin: auto;
+  width: 93%;
+  align-items: center;
+  justify-content: center;
+}
+
+.uchai{
+  height: 262px;
+}
+.imgCard {
+  margin: 4px;
+}
+/* WebP */
+#WebP {
+  background-color: black;
+  transition-property: background-color;
+  transition-duration: 5s;
+}
+
+#WebP:hover {
+  background-color: white;
+}
+#greeing {
+  font-size: 19px;
+  font-weight: 700;
+  text-shadow: yellow 1px 1px;
+  color: rgb(6 80 18);
+  line-height: 31px;
+  padding: 24px;
+  box-shadow: yellow 6px 6px;
+  border-radius: 9px;
+}
+
+.uti{
+ color: #05058d;
+}
